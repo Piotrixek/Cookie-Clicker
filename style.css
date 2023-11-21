@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+h2 {
+  text-align: center;
+}
+#cps {
+  text-align: center;
+  color: #333;
+}
+
+#score {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 0;
+  text-align: center;
+}
+
+#cookie {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#cookie:hover {
+  background-color: #fff;
+  color: #333;
+  transform: scale(1.1);
+}
+
+#upgrades {
+  list-style: none;
+  margin: 16px 0;
+  padding: 0;
+  text-align: center;
+}
+
+#upgrades li {
+  margin-bottom: 8px;
+  
+}
+
+#upgrades button {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#upgrades button:hover {
+  background-color: #fff;
+  color: #333;
+  transform: scale(1.1);
+}
+
+#upgrades #double-score-cost {
+  font-size: 14px;
+  color: #999;
+  margin-left: 8px;
+  
+}
+
+/* Style for the auto-clicker button and cost display */
+#auto-clicker {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#auto-clicker:hover {
+  background-color: #fff;
+  color: #333;
+  transform: scale(1.1);
+}
+
+/* Style for the cost display of the auto-clicker button */
+#auto-clicker-cost {
+  float: right;
+  font-size: 16px;
+  }
+  
+  /* Style for the number of points per click display */
+  #points-per-click {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: fadeOut 0.5s ease-in-out;
+  }
+  
+  /* Keyframe animation for fading out the number of points per click display */
+  @keyframes fadeOut {
+  from {
+  opacity: 1;
+  }
+  to {
+  opacity: 0;
+  }

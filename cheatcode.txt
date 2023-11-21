@@ -1,0 +1,2 @@
+// Increase the player's score by a large amount
+score += 1000;
